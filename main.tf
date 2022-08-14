@@ -8,7 +8,7 @@ locals {
 }
 
 locals {
- pangram = length(local.actual) == 0
+ pangram = length(local.actual) == 1
 }
 output "actual" {
  value = local.actual
