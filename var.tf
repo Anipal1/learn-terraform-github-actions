@@ -7,7 +7,7 @@ locals {
  actual  = tolist([])
 }
 locals {
- pangram = length(local.actual) == 26
+ pangram = length(local.actual) == 0
 }
 output "actual" {
  value = local.actual
